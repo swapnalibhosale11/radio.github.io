@@ -1,0 +1,82 @@
+body{
+
+}
+.quiz{
+    
+     display: grid;
+     grid-template-columns: auto auto auto;
+     width: 600px;
+}
+.inputCls{
+    width: 20px;
+    padding: 0px;
+    border: 2px solid black;
+}
+.outerclsIp{
+    float: left;
+}
+.feedback{
+    float: left;
+    width: 30px;
+    height: 26px;
+    margin-top: -20px;
+    margin-left: 137px;
+    position: absolute;
+}
+.correctFB{
+    background: url("../images/feedback.png") 0px -26px no-repeat;
+}
+
+.incorrectFB{
+    background: url("../images/feedback.png") 0px 0px no-repeat;
+}
+button{
+    border: none;
+    background: #007098 none repeat scroll 0 0;
+    color: #fff;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    width: 600px;
+    margin-top: 60px;
+}
+button:disabled{
+    opacity: 0.25;
+    cursor: default;
+}
+.popup{
+    display: none;
+    border: 1px solid #007098;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 30%;
+    align-items: center;
+    margin: 0px auto;
+    position: absolute;
+    top: 0px;
+    background: #fff;
+    margin-left: 10%;
+}
+.close{
+    float: right;
+    color: #007098;
+    cursor: pointer;
+}
+.numtext{
+    display: block;
+    padding: 2px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.numList{
+    display: none;
+    border: 1px solid;
+    width: 22px;
+    margin-left: 102px;
+}

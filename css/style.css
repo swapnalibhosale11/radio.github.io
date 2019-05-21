@@ -1,0 +1,23 @@
+body{
+
+}
+.heading1{
+	height: 50px;
+	width: 100%;
+}
+nav{
+	font-size: 16px;
+	
+	background: black;
+}
+nav a{
+	color: white;
+	padding:30px;
+	font-size: 20px;
+}
+a:hover{
+	opacity: 0.5;
+}
+.container{
+	border: 1px solid #fff;
+}
